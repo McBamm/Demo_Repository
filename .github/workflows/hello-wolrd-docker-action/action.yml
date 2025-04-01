@@ -1,5 +1,9 @@
 name: 'Hello World Docker Action'
-description: 'Say hello to a user or the world.'
+
+on: [workflow_dispatch]
+
+job:
+
 inputs:
   who-to-greet:
     description: 'Who to greet'
